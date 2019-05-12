@@ -1,6 +1,4 @@
 baseURL = "https://coolgood88142.github.io/"
-defaultContentLanguage = "zh-tw"
-defaultContentLanguageInSubdir = "true"
 #title = "我的部落格"
 theme = "hamburg"
 copyright = "&copy; Lorem ipsum ... and so on ..."
@@ -15,8 +13,3 @@ copyright = "&copy; Lorem ipsum ... and so on ..."
 	subtitle = "我的部落格"
 	disqus = "Kai88142"
 	
-[languages]
-	[languages.zh-tw]
-			languageCode = "zh-tw"
-			languageName = "Chinese(Taiwan)"
-			subtitle = "關於我們"
