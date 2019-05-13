@@ -12,4 +12,9 @@ copyright = "&copy; Lorem ipsum ... and so on ..."
 [params]
 	subtitle = "我的部落格"
 	disqus = "Kai88142"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 	
