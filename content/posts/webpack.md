@@ -3,7 +3,7 @@ title: "webpack"
 date: "2019-03-05"
 author: "webpack"
 summary: "webpack是來自於npm底下其中一個套件，主要是3個步驟：輸入、編譯、輸出"
-tags: ["webpack"]
+tags: ["Webpack","Package Manager"]
 ---
 
 webpack是來自於npm底下其中一個套件，主要是3個步驟：輸入、編譯、輸出

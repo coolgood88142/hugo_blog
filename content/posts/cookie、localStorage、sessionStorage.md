@@ -3,7 +3,7 @@ title: "cookie、localStorage、sessionStorage差異"
 date: "2019-04-26"
 author: cookie、localStorage、sessionStorage
 summary: "cookie、localStorage、sessionStorag三種不同的記錄，適用於哪些功能上"
-tags: ["cookie","localStorage","sessionStorage"]
+tags: ["Cookie","LocalStorage","SessionStorage"]
 ---
 
 #### cookie

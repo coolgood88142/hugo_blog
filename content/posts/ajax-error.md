@@ -3,7 +3,7 @@ title: "ajax error"
 date: "2019-03-09"
 author: "ajax error"
 summary: "說明在ajax執行時可以會顯是哪些錯誤，function(xhr, status, error),回傳哪些訊息知道錯在哪裡?"
-tags: ["ajax error"]
+tags: ["jQuery Ajax Error","ajax error response text"]
 ---
 
 用登入頁面做範例
@@ -222,11 +222,17 @@ responseText：後段程式碼錯誤訊息。
 
 responseXML：後段程式碼錯誤訊息用標籤方式呈現。
 
-"<br />↵<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>↵<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Array to string conversion in C:\xampp\htdocs\active_plan\testfile\test_score.php on line <i>21</i>.."
+
+
+```
+<br /><font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>↵<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'></span>Notice: Array to string conversion in C:\xampp\htdocs\active_plan\testfile\test_score.php on line <i>21</i>..
+```
 
 用正規畫檢化這段錯誤訊息(ajax responsetext error)
 
 這種情況需要檢查後端回傳JSON物件內容
+
+
 
 2.status：string
 
