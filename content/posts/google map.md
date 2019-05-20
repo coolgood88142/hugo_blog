@@ -3,7 +3,7 @@ title: "Google Map教學：操作地址"
 date: "2019-05-06"
 author: "google map"
 summary: "什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。"
-tags: ["Google Map","Google Developers"]
+tags: ["Google Map","Geocoding API","Map JavaScript API "]
 ---
 
 什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。
