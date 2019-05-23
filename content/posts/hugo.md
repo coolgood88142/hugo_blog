@@ -3,6 +3,7 @@ title: "Hugo教學：部落格網站"
 date: "2019-05-12"
 author: "HeroKu"
 summary: "說明如何使用Hugo製作部落格網站"
+categories: ["Deployment Site"]
 tags: ["Hugo","Git"]
 ---
 

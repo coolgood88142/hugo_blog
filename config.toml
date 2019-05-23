@@ -7,8 +7,18 @@ copyright = "&copy; Lorem ipsum ... and so on ..."
 	[[menu.main]]
 		name = "About"
 		identifier = "about"
-		url = "pages/about"
+		url = "/pages/about"
 
+	[[menu.main]]
+		name = "Tags"
+		identifier = "tag"
+		url = "tags"
+	
+	[[menu.main]]
+		name = "Categories"
+		identifier = "categories"
+		url = "categories"
+		
 [params]
 	subtitle = "我的部落格"
 	disqus = "Kai88142"

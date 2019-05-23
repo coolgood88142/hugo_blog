@@ -3,6 +3,7 @@ title: "HeroKu教學：部署網站"
 date: "2019-05-12"
 author: "HeroKu"
 summary: "說明如何使用HeroKu部署網站"
+categories: ["Cloud Platform"]
 tags: ["HeroKu","Git"]
 ---
 

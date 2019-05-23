@@ -3,7 +3,8 @@ title: "development與production差異?"
 date: "2019-02-13"
 author: "development and production"
 summary: "webpack mode 模型分為兩種，development、production"
-tags: ["Development,Production"]
+categories: ["Webpack"]
+tags: ["Webpack"]
 ---
 
 webpack mode 模型分為兩種，development、production，

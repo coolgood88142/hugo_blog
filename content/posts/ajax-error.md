@@ -3,7 +3,8 @@ title: "Ajax Error"
 date: "2019-03-09"
 author: "ajax error"
 summary: "說明在ajax執行時可以會顯是哪些錯誤，function(xhr, status, error),回傳哪些訊息知道錯在哪裡?"
-tags: ["jQuery Ajax","XMLHttpRequest"]
+categories: ["jQuery"]
+tags: ["Ajax"]
 ---
 
 用登入頁面做範例
