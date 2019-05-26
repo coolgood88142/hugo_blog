@@ -9,11 +9,13 @@ defaultContentLanguageInSubdir = true
         languageCode = "zh-tw"
         languageName = "中文"
         title = "我的部落格"
+		contentDir = "content/zh-tw"
 		
 	[languages.en]
         languageCode = "en"
         languageName = "English"
         title = "My Hugo Blog"
+		contentDir = "content/en"
 	
 [menu]
 	[[languages.zh-tw.menu.main]]
