@@ -9,7 +9,7 @@ tags: ["HeroKu","Git"]
 
 **Heroku** 是多個雲端伺服器當中之一，結合Github是一個專門讓人放置網站的服務，給開發者一個固定的 URL (含有 HTTPS 憑證)，可快速將自己的專案部署上去。
 
-![background_heroku](https://raw.githubusercontent.com/coolgood88142/markdown_note/master/assets/images/background_heroku.png)
+![background_heroku](https://coolgood88142.github.io/images/background_heroku.png)
 
 以下範例，將自己的專案部署在HeroKu網站上
 
@@ -46,13 +46,13 @@ git
 
 ### 5.登入HeroKu網站，在Personal新增create new app
 
-![heroku-1](https://raw.githubusercontent.com/coolgood88142/markdown_note/master/assets/images/heroku-1.png)
+![heroku-1](https://coolgood88142.github.io//images/heroku-1.png)
 
 
 
 ### 6.從HeroKu網站裡的Setting找HeroKu Git URL並複製，代表app的連結
 
-![heroku-2](https://raw.githubusercontent.com/coolgood88142/markdown_note/master/assets/images/heroku-2.png)
+![heroku-2](https://coolgood88142.github.io/images/heroku-2.png)
 
 
 
@@ -78,11 +78,11 @@ git push origin master
 
 ### 9.回到剛剛HeroKu網站，點右上角的Open app，這時會開啟Heroku專案的網頁，顯示專案名稱的網址
 
-![heroku-3](https://raw.githubusercontent.com/coolgood88142/markdown_note/master/assets/images/heroku-3.png)
+![heroku-3](https://coolgood88142.github.io/images/heroku-3.png)
 
 
 
-![heroku-4](https://raw.githubusercontent.com/coolgood88142/markdown_note/master/assets/images/heroku-4.png)
+![heroku-4](https://coolgood88142.github.io/images/heroku-4.png)
 
 
 
