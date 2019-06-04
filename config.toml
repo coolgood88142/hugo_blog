@@ -16,25 +16,40 @@ defaultContentLanguageInSubdir = true
         languageName = "English"
         title = "My Hugo Blog"
 		contentDir = "content/en"
-	
+		
+		[[languages.en.menu.main]]
+			name = "Home"
+			identifier = "home"
+		
+		[[languages.en.menu.main]]
+			name = "Tags"
+			identifier = "tags"
+			
+		[[languages.en.menu.main]]
+			name = "Categories"
+			identifier = "categories"
+			
+		[[languages.en.menu.main]]
+			name = "About"
+			identifier = "about"
 [menu]
 	[[menu.main]]
-		name = "Home"
+		name = "首頁"
 		identifier = "home"
 		url = "/"
 
 	[[menu.main]]
-		name = "Tags"
+		name = "標籤"
 		identifier = "tags"
 		url = "tags/"
 	
 	[[menu.main]]
-		name = "Categories"
+		name = "分類"
 		identifier = "categories"
 		url = "categories/"
 			
 	[[menu.main]]
-		name = "About"
+		name = "關於"
 		identifier = "about"
 		url = "pages/about/"
 		
