@@ -1,8 +1,6 @@
-{{ $imagename := (.Get 0) }}
-{{ $options := .Get 1 }}
-{{ with .Site.GetPage "section" "media" }}
-  {{ $original := .Resources.GetByPrefix  $imagename }}
-  {{ with ($original.Resize $options) }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-  {{ end }} 
-{{ end }}
+{{- $src := .Get "src" -}}
+{{- with .Parent -}}
+  <img src="{{$src}}" class="{{.Get "class"}}-image">
+{{- else -}}
+  <img src="{{$src}}">
+{{- end }}

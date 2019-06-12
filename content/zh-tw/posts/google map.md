@@ -9,11 +9,11 @@ tags: ["Geocoding","Map JavaScript"]
 
 什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。
 
+{{< gallery hover-effect="grow" >}}
 
+​	{{< figure src="https://coolgood88142.github.io/images/question.png" >}}
 
-{{<img src="https://coolgood88142.github.io/images/question.png" >}}
-
-![question](<https://coolgood88142.github.io/images/question.png>)
+{{< /gallery>}}
 
 
 
