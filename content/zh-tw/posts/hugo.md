@@ -9,9 +9,7 @@ tags: ["Hugo","Git"]
 
 什麼是Hugo?是一個用 Go 語言編寫的靜態站點生成器，使用Hugo與Git來建立個人部落格。
 
-![question_hugo](https://coolgood88142.github.io/images/question_hugo.png)
-
-
+{{< figure src="https://coolgood88142.github.io/images/question_hugo.png" >}}
 
 以下分為兩部分介紹：**本地建立檔案、部署到 GitHub**。
 
@@ -90,13 +88,9 @@ hugo server -D
 
 執行後，在瀏覽器輸入網址`http://localhost:1313`，可看剛建立的部落格網站
 
-![hugo-1](https://coolgood88142.github.io/images/hugo-1.png)
+{{< figure src="https://coolgood88142.github.io/images/hugo-1.png" >}}
 
-
-
-![hugo-2](https://coolgood88142.github.io/images/hugo-2.png)
-
-
+{{< figure src="https://coolgood88142.github.io/images/hugo-2.png" >}}
 
 ## **部署到 GitHub**
 
@@ -207,3 +201,5 @@ https://gohugo.io/hosting-and-deployment/hosting-on-github/、
 http://coolgood88142.github.io、
 
 <http://m.tooopen.com/view/520372.html>
+
+{{< load-photoswipe >}}

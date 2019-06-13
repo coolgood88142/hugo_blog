@@ -9,25 +9,17 @@ tags: ["Geocoding","Map JavaScript"]
 
 什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。
 
-
-
-![question](<https://coolgood88142.github.io/images/question.png>)
-
-
+{{< figure src="https://coolgood88142.github.io/images/question.png" >}}
 
 ### 架構
 
 我們比較常看到的用法，在文字框輸入想要地點或地址之後點查詢，地圖會自動刷新顯示地標以及相關資訊。
 
-![map](<https://coolgood88142.github.io/images/UML.png>)
+{{< figure src="https://coolgood88142.github.io/images/UML.png" >}}
 
+{{< figure src="https://coolgood88142.github.io/images/Flow Chart.png" >}}
 
-
-![map](<https://coolgood88142.github.io/images/Flow Chart.png>)
-
-
-
-![map](<https://coolgood88142.github.io/images/Frame.png>)
+{{< figure src="https://coolgood88142.github.io/images/Frame.png" >}}
 
 製作Google Map需要google提供的google map API才能實做，今天我們使用Geocoding API裡的地理編碼請求與Map JavaScript API來實做，以下介紹兩種的官網文件資訊
 
@@ -195,13 +187,13 @@ https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Park
 
 ### 1.開啟地圖
 
-![open_map1](<https://coolgood88142.github.io/images/open_map1.png>)
+{{< figure src="https://coolgood88142.github.io/images/open_map1.png" >}}
 
 剛開啟地圖時預設是帶台灣地圖，這時可直接輸入地點或地址之後點選查詢，google map會重新讀取地圖
 
 ### 2.查詢地點
 
-![open_map2](<https://coolgood88142.github.io/images/open_map2.png>)
+{{< figure src="https://coolgood88142.github.io/images/open_map2.png" >}}
 
 當查詢地點時，google map會重新讀取查詢到的地圖資訊，顯示地點的道路、附近地名等等。
 
@@ -288,3 +280,5 @@ https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Park
 https://developers.google.com/maps/documentation/geocoding/intro
 
 https://developers.google.com/maps/documentation/javascript/tutorial
+
+{{< load-photoswipe >}}

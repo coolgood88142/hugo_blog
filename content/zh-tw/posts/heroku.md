@@ -9,7 +9,7 @@ tags: ["HeroKu","Git"]
 
 **Heroku** 是多個雲端伺服器當中之一，結合Github是一個專門讓人放置網站的服務，給開發者一個固定的 URL (含有 HTTPS 憑證)，可快速將自己的專案部署上去。
 
-![background_heroku](https://coolgood88142.github.io/images/background_heroku.png)
+{{< figure src="https://coolgood88142.github.io/images/background_heroku.png" >}}
 
 以下範例，將自己的專案部署在HeroKu網站上
 
@@ -46,15 +46,11 @@ git
 
 ### 5.登入HeroKu網站，在Personal新增create new app
 
-![heroku-1](https://coolgood88142.github.io//images/heroku-1.png)
-
-
+{{< figure src="https://coolgood88142.github.io/images/heroku-1.png" >}}
 
 ### 6.從HeroKu網站裡的Setting找HeroKu Git URL並複製，代表app的連結
 
-![heroku-2](https://coolgood88142.github.io/images/heroku-2.png)
-
-
+{{< figure src="https://coolgood88142.github.io/images/heroku-2.png" >}}
 
 ### 7.用cmd路徑改到自己要放在HeroKu上版的專案
 
@@ -154,3 +150,5 @@ app.listen(port, function() {
 <https://stackoverflow.com/questions/33057674/js-file-not-found-on-heroku>、
 
 <https://github.com/facebook/create-react-app/issues/4132>
+
+{{< load-photoswipe >}}
